@@ -1,7 +1,6 @@
 import "./App.css";
 
 function App() {
-  console.log(process.env);
   return (
     <iframe
       title="fiat-iframe"
