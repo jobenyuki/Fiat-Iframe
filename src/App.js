@@ -1,6 +1,5 @@
 import CD_LOGO from "./cd_logo.svg";
 import BB_LOGO from "./bb_logo.png";
-import ACCORDION from "./accordion.png";
 import "./App.css";
 
 function App() {
@@ -8,7 +7,11 @@ function App() {
     <div className="app">
       <div className="header">
         <div>
-          <img className="accordion" src={ACCORDION} alt="" />
+          <div className="accordion">
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
           <img className="cd-logo" src={CD_LOGO} alt="" />
           <div className="button-group">
             <button className="subscribe-button">SUBSCRIBE</button>

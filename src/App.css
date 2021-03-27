@@ -37,8 +37,31 @@
 }
 
 .header > div > .accordion {
-  height: 15px;
+  width: 21px;
+  height: 21px;
   margin-right: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header > div > .accordion > div {
+  width: 100%;
+  height: 5px;
+  background-color: #343434;
+  border-radius: 2px;
+}
+
+.header > div > .accordion > div:nth-child(2) {
+  width: 75%;
+}
+
+.header > div > .accordion > div:nth-child(3) {
+  width: 50%;
+}
+
+.header > div > .accordion:hover > div {
+  background-color: #006fb9;
 }
 
 .header > div > .cd-logo {
