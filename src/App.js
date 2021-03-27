@@ -1,6 +1,6 @@
 import CD_LOGO from "./cd_logo.svg";
 import BB_LOGO from "./bb_logo.png";
-import ACCORDION from "./accordion.PNG";
+import ACCORDION from "./accordion.png";
 import "./App.css";
 
 function App() {
