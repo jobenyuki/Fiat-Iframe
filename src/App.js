@@ -1,9 +1,22 @@
+import CD_LOGO from "./cd_logo.svg";
+import BB_LOGO from "./bb_logo.png";
+import ACCORDION from "./accordion.PNG";
 import "./App.css";
 
 function App() {
   return (
     <div className="app">
-      <h1 className="title">Fiat</h1>
+      <div className="header">
+        <div>
+          <img className="accordion" src={ACCORDION} alt="" />
+          <img className="cd-logo" src={CD_LOGO} alt="" />
+          <div className="button-group">
+            <button className="subscribe-button">SUBSCRIBE</button>
+            <button className="signin-button">SIGN IN</button>
+          </div>
+        </div>
+      </div>
+      <h1 className="title">Fun Imported Auto and Toys Spells FIAT</h1>
       <p className="description">
         A little Italian charm goes a long way with Fiat's range of flavorful
         cars, crossovers, and sports cars. When this Italian automaker first
@@ -18,7 +31,6 @@ function App() {
         src={process.env.REACT_APP_CONTENT_URL}
         allowFullScreen
       ></iframe>
-      <h1 className="sub-title">Fun Imported Auto and Toys Spells FIAT</h1>
       <p className="sub-description">
         Danny O'Donnell bought his first Fiat in 1979. It turned into project he
         never put down. Today he has one of the largest stockpiles of vintage
@@ -27,6 +39,9 @@ function App() {
       <span className="author">
         BY <span>BRETT BERK</span> DEC 17, 2020
       </span>
+      <div className="bb-logo">
+        <img src={BB_LOGO} alt="" />
+      </div>
     </div>
   );
 }
