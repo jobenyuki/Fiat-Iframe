@@ -29,6 +29,7 @@ function App() {
         space with styling similar to the 500. The Fiat 124 Spider is a sporty,
         fun convertible that shares many components with the Mazda MX-5 Miata.
       </p>
+      <br />
       <iframe
         title="fiat-iframe"
         src={process.env.REACT_APP_CONTENT_URL}
@@ -42,6 +43,7 @@ function App() {
       <span className="author">
         BY <span>BRETT BERK</span> DEC 17, 2020
       </span>
+      <br />
       <div className="bb-logo">
         <img src={BB_LOGO} alt="" />
       </div>
