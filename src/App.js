@@ -35,6 +35,7 @@ function App() {
         src={process.env.REACT_APP_CONTENT_URL}
         allowFullScreen
       ></iframe>
+      <br />
       <p className="sub-description">
         Danny O'Donnell bought his first Fiat in 1979. It turned into project he
         never put down. Today he has one of the largest stockpiles of vintage
